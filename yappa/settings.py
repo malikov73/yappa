@@ -30,5 +30,6 @@ HANDLERS = {
     "asgi": "handlers.asgi.handle",
     "manage": "handlers.manage.manage",
     "raw": None,
+    "wsgi+raw": "handlers.manage.wsgi_and_raw",
 }
 MAX_DIRECT_ARCHIVE_SIZE = 4170000
