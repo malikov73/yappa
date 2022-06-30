@@ -5,6 +5,7 @@ requirements_file: requirements.txt
 bucket: null
 application_type: null # wsgi/asgi/django/raw
 entrypoint: null
+raw_handler: null
 django_settings_module: null
 folder_id: null
 gw_config: yappa_gw.yaml
